@@ -15,6 +15,8 @@ function App() {
       .catch((error) => console.log("Ошибка:", error));
   }, []);
 
+  // for commit
+
   return (
     <div className="container">
       <div className="pokemon-grid">
